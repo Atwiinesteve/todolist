@@ -2,9 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 
 function WelcomeMessage() {
+  const names = 'Kiiza Atwiine Stephen';
   return (
 
-    <p>Welcome to React, Stephen ...</p>
+    <p>Welcome to React, { names } ...</p>
 
   )
 };
